@@ -23,10 +23,10 @@ hi Normal       guibg=#d0d9ae	guifg=black
 
 " Vim Features
 hi Cursor       guibg=#888888 guifg=black
-hi VertSplit    guibg=#46464e guifg=grey60
+hi VertSplit    guibg=black guifg=black
 hi Folded       guibg=fg guifg=bg
 hi LineNr       guifg=brown guibg=#bac29b
-hi NonText      guifg=fg guibg=#bac29b
+hi NonText      guifg=#cccccc guibg=#bac29b
 hi Search       guibg=#d87a32 guifg=fg
 hi IncSearch	guibg=yellow guifg=fg
 hi StatusLine   guibg=black guifg=gray80
