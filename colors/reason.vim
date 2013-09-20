@@ -60,6 +60,7 @@ hi SpellLocal	guibg=bg gui=undercurl guisp=red
 hi HelpStar	guibg=bg guifg=fg gui=None
 
 " Language Features
+hi pythonSpaceError guibg=#bac29b guifg=fg
 hi Identifier	guifg=fg guibg=bg
 hi Function	guifg=fg guibg=bg
 hi Comment      guifg=seagreen guibg=bg
