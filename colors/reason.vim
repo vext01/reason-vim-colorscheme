@@ -26,7 +26,7 @@ hi Cursor       guibg=#888888 guifg=black
 hi VertSplit    guibg=black guifg=black
 hi Folded       guibg=fg guifg=bg
 hi LineNr       guifg=brown guibg=#bac29b
-hi NonText      guifg=#cccccc guibg=#bac29b
+hi NonText      guifg=black guibg=#bac29b
 hi Search       guibg=#d87a32 guifg=fg
 hi IncSearch	guibg=yellow guifg=fg
 hi StatusLine   guibg=black guifg=gray80
@@ -39,8 +39,8 @@ hi SpecialKey	guifg=fg guibg=bg
 hi Directory	guifg=fg guibg=bg gui=bold
 hi ModeMsg	guifg=fg guibg=bg gui=bold
 hi CursorLine	guibg=bg
-hi Pmenu	guifg=seagreen guibg=black
-hi PmenuSel	guifg=skyblue guibg=gray30
+hi Pmenu	guifg=black guibg=#bac29b
+hi PmenuSel	guifg=brown guibg=#999999
 hi Question	guifg=seagreen guibg=bg
 hi MoreMsg	guifg=seagreen guibg=bg
 hi DiffDelete	guifg=gray20 guibg=gray5
