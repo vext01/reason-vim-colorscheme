@@ -61,8 +61,10 @@ hi HelpStar	guibg=bg guifg=fg gui=None
 
 " Language Features
 hi pythonSpaceError guibg=#bac29b guifg=fg
+hi pythonBuiltin guibg=bg guifg=fg gui=italic
+hi pythonStatement guibg=bg guifg=fg gui=italic
 hi Identifier	guifg=fg guibg=bg
-hi Function	guifg=fg guibg=bg
+hi Function     guifg=brown guibg=bg
 hi Comment      guifg=seagreen guibg=bg
 hi javaCommentTitle guifg=seagreen guibg=bg
 hi Constant     guifg=fg guibg=bg
