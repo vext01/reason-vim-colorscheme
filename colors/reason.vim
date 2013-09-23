@@ -52,7 +52,7 @@ hi Title	guifg=fg guibg=bg gui=bold
 hi VimHiGroup   guifg=fg guibg=bg gui=None
 hi VimHiLink    guifg=fg guibg=bg gui=None
 hi VimGroup     guifg=fg guibg=bg gui=None
-hi Underlined	guifg=lightblue guibg=bg gui=bold
+hi Underlined	guifg=brown guibg=bg gui=bold
 hi SpellBad	guibg=bg gui=undercurl guisp=red
 hi SpellCap	guibg=bg gui=undercurl guisp=red
 hi SpellRare	guibg=bg gui=undercurl guisp=red
