@@ -26,7 +26,7 @@ hi Cursor       guibg=#888888 guifg=black
 hi VertSplit    guibg=black guifg=black
 hi Folded       guibg=fg guifg=bg
 hi LineNr       guifg=brown guibg=#bac29b
-hi NonText      guifg=#cccccc guibg=#bac29b
+hi NonText      guifg=black guibg=#bac29b
 hi Search       guibg=#d87a32 guifg=fg
 hi IncSearch	guibg=yellow guifg=fg
 hi StatusLine   guibg=black guifg=gray80
@@ -38,9 +38,9 @@ hi Error	guifg=fg guibg=gray30
 hi SpecialKey	guifg=fg guibg=bg
 hi Directory	guifg=fg guibg=bg gui=bold
 hi ModeMsg	guifg=fg guibg=bg gui=bold
-hi CursorLine	guibg=bg
-hi Pmenu	guifg=seagreen guibg=black
-hi PmenuSel	guifg=skyblue guibg=gray30
+hi CursorLine	guibg=#dce6b8
+hi Pmenu	guifg=black guibg=#bac29b
+hi PmenuSel	guifg=black guibg=#aaaaaa
 hi Question	guifg=seagreen guibg=bg
 hi MoreMsg	guifg=seagreen guibg=bg
 hi DiffDelete	guifg=gray20 guibg=gray5
@@ -52,7 +52,7 @@ hi Title	guifg=fg guibg=bg gui=bold
 hi VimHiGroup   guifg=fg guibg=bg gui=None
 hi VimHiLink    guifg=fg guibg=bg gui=None
 hi VimGroup     guifg=fg guibg=bg gui=None
-hi Underlined	guifg=lightblue guibg=bg gui=bold
+hi Underlined	guifg=brown guibg=bg gui=bold
 hi SpellBad	guibg=bg gui=undercurl guisp=red
 hi SpellCap	guibg=bg gui=undercurl guisp=red
 hi SpellRare	guibg=bg gui=undercurl guisp=red
@@ -60,11 +60,27 @@ hi SpellLocal	guibg=bg gui=undercurl guisp=red
 hi HelpStar	guibg=bg guifg=fg gui=None
 
 " Language Features
+hi String guifg=#707070 guibg=bg
 hi pythonSpaceError guibg=#bac29b guifg=fg
+hi pythonBuiltin guibg=bg guifg=fg gui=italic
+hi pythonStatement guibg=bg guifg=fg gui=italic
 hi Identifier	guifg=fg guibg=bg
-hi Function	guifg=fg guibg=bg
+hi Function     guifg=brown guibg=bg
 hi Comment      guifg=seagreen guibg=bg
 hi javaCommentTitle guifg=seagreen guibg=bg
+hi javaScopeDecl guifg=brown guibg=bg
+hi javaConditional guifg=brown guibg=bg
+hi javaStorageClass guifg=brown guibg=bg
+hi javaOperator guifg=brown guibg=bg
+hi pythonExceptions guifg=brown guibg=bg
+hi pythonException guifg=brown guibg=bg
+hi pythonConditional guifg=brown guibg=bg
+hi vimHiGui guifg=brown guibg=bg
+hi vimHiGuiFgBg guifg=brown guibg=bg
+hi vimHighLight guifg=brown guibg=bg
+hi vimLet guifg=brown guibg=bg
+hi vimOper guifg=brown guibg=bg
+hi javaType guifg=brown guibg=bg
 hi Constant     guifg=fg guibg=bg
 hi Statement    gui=italic
 hi PreProc      guifg=fg gui=bold guibg=bg
